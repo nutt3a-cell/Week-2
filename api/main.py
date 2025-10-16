@@ -31,7 +31,7 @@ def default_route():    #route handler function
     This is the default endpoint for this back-end.
     """
     return "You have reached the default route. Back-end server is listening..."
-    name = input("What's your name?")
+   #name = input("What's your name?")
 @app.get("/example")  
 def get_example():    
     """
